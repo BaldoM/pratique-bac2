@@ -1,0 +1,83 @@
+*, *:after, *:before {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Roboto, Raleway,  sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 10px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 8px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    color: yellow;
+}
+
+.container {
+    width: 1200px;
+    margin: 10px 25px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#table-mult {
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#table-mult ul {
+    border: 1px solid black;
+    min-width: 120px;
+    list-style: none;
+    margin: 1px;
+    padding: 1px;
+}
+
+#table-mult ul li {
+    padding: 2px;
+}
+
+#table-mult ul li:nth-child(even) {
+    background-color: #ccc;
+}
+
+#soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#soon div {
+    background-color: rgba(15, 18, 75, .2);
+    margin: 5px;
+    min-width: 110px;
+    border-top: 7px solid blue;
+
+}
